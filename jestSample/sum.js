@@ -7,7 +7,7 @@ const CONTEXT_TYPE = {
 }
 function foo(context){
     if(context.type == CONTEXT_TYPE.CREATE){
-        bar();
+        this.bar();
     }
     else{
         console.log('bar not called');
